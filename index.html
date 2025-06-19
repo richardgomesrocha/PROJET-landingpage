@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page-Adoção de Animais</title>
+<link rel="stylesheet" href="index.css">
+<style>
+    .highlight {
+        color: #00c3ff;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+    }
+    .btn-cta:active {
+        background-color: #004085;
+        transform: translateY(1px);
+    }
+</style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>Bem-vindo à Nossa Página de Adoção</h1>
+            <p>Descubra e encontre seu novo melhor amigo!</p>
+            <a href="#cadastro" class="btn-cta">Cadastre-se Já e Adote!</a>
+        </div>
+    </header>
+    <main>
+   <section id="about" class="about-section">
+    <div class="container">
+  <h2>Sobre Nós</h2>
+  <p>Nossa missão é <span class="highlight">simplificar sua vida</span> e conectar você a animais necessitados, logo você pode ser um adotante de algum animal!</p>
+<div class="features-grid">
+  <div class="feature-item">
+    <h3>Inovação</h3>
+   <p>Sempre buscamos atender às expectativas de nossos visitantes com as melhores ferramentas e um processo de adoção transparente.</p>
+      </div>
+      <div class="feature-item">
+   <h3>Adote Já</h3>
+         <p>Aqui você pode dar uma olhada em alguns dos animais que estão esperando por um lar.</p>
+ <a href="animais.html" class="btn-adotar">Ver Animais para Adoção</a>
+    </div>
+    <div class="feature-item">
+    <h3>Suporte</h3>
+      <p>Atendimento dedicado e personalizado para você em todas as etapas do processo de adoção.</p>
+      </div>
+      </div>
+   </div>
+        </section>
+
+        <section id="cadastro" class="cadastro-section">
+            <div class="container form-container">
+                <section class="header">
+                    <h2>Nova Conta de Usuário</h2>
+                </section>
+                <form id="form" class="form">
+                    <div class="form-content">
+                        <label for="username">Nome do Usuário</label>
+                        <input type="text" id="username" placeholder="Digite o nome do usuário...">
+                        <a class="error-message"></a>
+                    </div>
+
+                    <div class="form-content">
+                        <label for="email">Endereço de Email</label>
+                <input type="email" id="email" placeholder="Digite o seu Email...">
+             <a class="error-message"></a>
+             </div>
+
+          <div class="form-content">
+                <label for="password">Senha</label>
+              <input type="password" id="password" placeholder="Digite sua Senha...">
+                  <a class="error-message"></a>
+              </div>
+                <div class="form-content">
+              <label for="password-confirmation">Confirmação de Senha</label>
+                  <input type="password" id="password-confirmation" placeholder="Confirme sua Senha...">
+                    <a class="error-message"></a>
+            </div>
+        <button type="submit" id="submitButton">Criar Conta</button>
+             </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Landing Page de Adoção. Todos os direitos reservados.</p>
+            <p><a href="#" style="color: white; text-decoration: none; border-bottom: 1px dotted white;">Política de Privacidade</a> | <a href="#" style="color: white; text-decoration: none; border-bottom: 1px dotted white;">Termos de Serviço</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
